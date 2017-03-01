@@ -1,14 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="作業7" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +22,45 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MZS-zb-38f">
+                                <rect key="frame" x="36" y="239" width="94.5" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MZS-zb-38f" secondAttribute="height" multiplier="1:2" id="AAL-Pe-HUo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tPF-AZ-oCu">
+                                <rect key="frame" x="244.5" y="239" width="94.5" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tPF-AZ-oCu" secondAttribute="height" multiplier="1:2" id="LC6-iq-UJA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BbR-pj-gtx">
+                                <rect key="frame" x="140.5" y="239" width="94" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BbR-pj-gtx" secondAttribute="height" multiplier="1:2" id="BFI-jV-pj8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MZS-zb-38f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="0Aq-bM-Kjn"/>
+                            <constraint firstItem="tPF-AZ-oCu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0m6-MX-1yZ"/>
+                            <constraint firstItem="BbR-pj-gtx" firstAttribute="width" secondItem="MZS-zb-38f" secondAttribute="width" id="JKa-X5-dfp"/>
+                            <constraint firstItem="MZS-zb-38f" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NCP-y2-RSu"/>
+                            <constraint firstItem="tPF-AZ-oCu" firstAttribute="height" secondItem="MZS-zb-38f" secondAttribute="height" id="P0t-n1-Bsn"/>
+                            <constraint firstItem="tPF-AZ-oCu" firstAttribute="width" secondItem="MZS-zb-38f" secondAttribute="width" id="P1g-hi-TUJ"/>
+                            <constraint firstItem="BbR-pj-gtx" firstAttribute="height" secondItem="MZS-zb-38f" secondAttribute="height" id="Qen-bE-abv"/>
+                            <constraint firstItem="BbR-pj-gtx" firstAttribute="leading" secondItem="MZS-zb-38f" secondAttribute="trailing" constant="10" id="U46-vn-aK9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tPF-AZ-oCu" secondAttribute="trailing" constant="20" id="YY9-ks-A8t"/>
+                            <constraint firstItem="BbR-pj-gtx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="a9x-cN-LDQ"/>
+                            <constraint firstItem="tPF-AZ-oCu" firstAttribute="leading" secondItem="BbR-pj-gtx" secondAttribute="trailing" constant="10" id="hrJ-Ys-MOV"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>
