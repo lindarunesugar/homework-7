@@ -23,19 +23,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MZS-zb-38f">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="夏娜1" translatesAutoresizingMaskIntoConstraints="NO" id="MZS-zb-38f">
                                 <rect key="frame" x="36" y="239" width="94.5" height="189"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="MZS-zb-38f" secondAttribute="height" multiplier="1:2" id="AAL-Pe-HUo"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tPF-AZ-oCu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="夏娜6" translatesAutoresizingMaskIntoConstraints="NO" id="tPF-AZ-oCu">
                                 <rect key="frame" x="244.5" y="239" width="94.5" height="189"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tPF-AZ-oCu" secondAttribute="height" multiplier="1:2" id="LC6-iq-UJA"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BbR-pj-gtx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="夏娜2" translatesAutoresizingMaskIntoConstraints="NO" id="BbR-pj-gtx">
                                 <rect key="frame" x="140.5" y="239" width="94" height="189"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BbR-pj-gtx" secondAttribute="height" multiplier="1:2" id="BFI-jV-pj8"/>
@@ -63,4 +63,9 @@
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="夏娜1" width="325" height="500"/>
+        <image name="夏娜2" width="387" height="500"/>
+        <image name="夏娜6" width="358" height="500"/>
+    </resources>
 </document>
